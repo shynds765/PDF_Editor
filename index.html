@@ -4,14 +4,15 @@
         <title>Re-Order PDF</title>
         <link rel="stylesheet" href="style.css">
         <script src="Add_PDF.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/cjs/index.min.js"></script>
     </head>
     <body>
         <div class="taskbar">
             <input type="file" id="file"/>
-            <button onclick="Add_PDF()">Upload PDF</button>
+            <button onclick="Upload_PDF()">Upload PDF</button>
         </div>
-        <div class="editor">
-            
+        <div id="editor">
+
         </div>
     </body>
 </html>

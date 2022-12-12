@@ -20,7 +20,7 @@ body {
 }
 
 button {
-    border: 2px solid rgb(76, 76, 76);
+    border: 1px solid white;
     border-radius: 5px;
     background: gray;
     color: white;
@@ -34,8 +34,5 @@ button {
 
 button:hover {
     background: rgb(76, 76, 76);
-}
-
-.editor {
-    
+    border: 1px solid black;
 }

@@ -3,10 +3,15 @@
     <head>
         <title>Re-Order PDF</title>
         <link rel="stylesheet" href="style.css">
+        <script src="Add_PDF.js"></script>
     </head>
     <body>
-        <div id="editor"></div>
-        <input type="file" id="file"/>
-        <button onclick="document.getElementById('file').click()">Upload PDF</button>
+        <div class="taskbar">
+            <input type="file" id="file"/>
+            <button onclick="Add_PDF()">Upload PDF</button>
+        </div>
+        <div class="editor">
+            
+        </div>
     </body>
 </html>

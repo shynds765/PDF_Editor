@@ -23,9 +23,21 @@ body {
     position: relative;
 }
 
+#filler-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+}
+
 .pdf-page {
     border: 1px solid black;
     position: absolute;
+}
+
+.pdf-page:hover {
+    cursor: pointer;
 }
 
 button {
@@ -43,5 +55,6 @@ button {
 
 button:hover {
     background: rgb(76, 76, 76);
-    border: 1px solid black;
+    border: 1px solid gray;
+    color: gray;
 }

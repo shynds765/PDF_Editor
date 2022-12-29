@@ -36,6 +36,7 @@ function Add_PDF() {
                     canvas.style.left = (10+210*page._pageIndex)+'px';
                     canvas.className = "pdf-page";
                     editor.appendChild(canvas);
+                    dragElement(canvas); // Make element dcraggable
 
                     var transform = outputScale !== 1
                     ? [outputScale, 0, 0, outputScale, 0, 0]
@@ -51,4 +52,5 @@ function Add_PDF() {
             }
         });
     }
+    document.getElementById("filler-text").style.display = 'none';
 }
